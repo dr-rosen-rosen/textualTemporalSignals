@@ -1,0 +1,43 @@
+# Configuration file for event data pipeline
+
+# Data paths
+data_paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  
+  # Source-specific paths
+  asrs:
+    data_dir: "data/raw/asrs"
+    events_file: "asrs_events.xlsx"  # This will be created from multiple files
+  
+  nrc:
+    data_dir: "data/raw/nrc"
+    events_file: "nrc_events.csv"
+  
+  phmsa:
+    data_dir: "data/raw/phmsa"
+    events_file: "phmsa_events.csv"
+  
+  rail:
+    data_dir: "data/raw/rail"
+    events_file: "rail_events.csv"
+
+# Processing parameters
+processing:
+  # Minimum word count for narratives
+  min_narrative_words: 10
+  
+  # Date range filters (optional)
+  start_date: "1999-01-01"
+  end_date: "2023-12-31"
+  
+  # Output format for R modeling
+  output_format: "parquet"  # Options: parquet, feather, csv
+
+# Column mappings for harmonization
+harmonization:
+  key_columns:
+    - event_date
+    - event_num
+    - event_text
+    - source_system

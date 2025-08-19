@@ -1,0 +1,7 @@
+report_no,date,had_release,had_spillage,had_fire,had_explosion,had_environmental_damage,total_damage_cost,had_fatalities,had_injuries,had_evacuation,had_transportation_closure,severity_score,severity_category
+E-2021120754,,False,,,,False,,False,False,False,False,0,None
+E-2020050298,,False,,,,False,,False,False,False,False,0,None
+E-2021080144,,False,,,,False,,False,False,False,False,0,None
+E-2019070448,,False,,,,False,,False,False,False,False,0,None
+X-2021093724,,False,,,,False,,False,False,False,False,0,None
+X-2021071255,,False,,,,False,,False,False,False,False,0,None

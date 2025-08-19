@@ -1,0 +1,35 @@
+project/
+├── README.md
+├── requirements.txt
+├── config.yaml
+├── src/
+│   ├── __init__.py
+│   ├── data_acquisition/
+│   │   ├── __init__.py
+│   │   ├── scrapers/
+│   │   │   ├── nrc_scraper.py
+│   │   │   └── phmsa_scraper.py
+│   │   └── readers/
+│   │       ├── asrs_reader.py
+│   │       └── rail_reader.py
+│   ├── data_processing/
+│   │   ├── __init__.py
+│   │   ├── cleaners.py
+│   │   ├── harmonizer.py
+│   │   └── validators.py
+│   └── utils/
+│       ├── __init__.py
+│       └── helpers.py
+├── scripts/
+│   ├── run_pipeline.py
+│   └── export_for_r.py
+├── notebooks/
+│   └── exploratory/
+├── data/
+│   ├── raw/
+│   ├── interim/
+│   └── processed/
+├── R/
+│   └── modeling/
+│       └── ccm_analysis.R
+└── tests/

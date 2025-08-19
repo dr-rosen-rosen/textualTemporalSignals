@@ -1,0 +1,44 @@
+# Core data processing
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=11.0.0  # For parquet support
+
+# Excel file handling
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+# Web scraping
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+lxml>=4.9.0
+selenium>=4.15.0
+
+# PDF processing
+pdfminer.six>=20221105
+PyPDF2>=3.0.0
+
+# Configuration
+pyyaml>=6.0
+
+# Date handling
+python-dateutil>=2.8.0
+
+# Data validation and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Logging and CLI
+click>=8.0.0
+colorlog>=6.7.0
+
+# Optional: for progress bars
+tqdm>=4.65.0
+
+# Optional: for data profiling
+pandas-profiling>=3.6.0
+
+# Development tools
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+pre-commit>=3.0.0
